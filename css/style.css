@@ -1,3 +1,4 @@
 .banner{
-    background-size: 100%;
+    background-position: 100%;
+    background-size: cover;
 }
