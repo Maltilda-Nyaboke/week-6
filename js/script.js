@@ -1,3 +1,7 @@
 $(document).ready(function(){
-    alert("already");
-});
+    $(".design-two").hide();
+    $(".design-one").click(function(){
+        $(".design-one").toggle();
+        $(".design-two").toggle();
+    })
+})

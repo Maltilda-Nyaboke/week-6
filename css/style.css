@@ -5,3 +5,20 @@
 h2{
     font-size: 50px;
 }
+input[type=text],input[type=text]:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+}
+textarea.text,textarea.text:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+}
+input[type=text]::placeholder{
+    color: white;
+}
+textarea.text::placeholder{
+    color: white;
+}
+
