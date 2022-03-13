@@ -26,13 +26,13 @@ input[type=text],input[type=text]:focus{
     background-color: transparent;
     border: 1px solid white;
     box-shadow: none;
-    color: black;
+    color: white;
 }
 textarea.text,textarea.text:focus{
     background-color: transparent;
     border: 1px solid white;
     box-shadow: none;
-    color: black;
+    color: white;
 }
 input[type=text]::placeholder{
     color: white;
