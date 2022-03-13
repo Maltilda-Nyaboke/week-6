@@ -21,4 +21,10 @@ input[type=text]::placeholder{
 textarea.text::placeholder{
     color: white;
 }
+.hover{
+    border: 5px solid red;
+    position: absolute;
+  height: 100px;
+  width: 100px;
+}
 

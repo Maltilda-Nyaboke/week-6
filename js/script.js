@@ -18,10 +18,12 @@ $(document).ready(function(){
 
 
  $(".work1").hover(function(){
-     $(this).css("background-color","yellow");
+     $(this).addClass("hover");
+     $(this).css("opacity","0.9");
+     
  })
  $(".work2").hover(function(){
-    $(this).css("background-color","yellow");
+    $(this).css("border","solid 20px purple");
 })
 $(".work3").hover(function(){
     $(this).css("background-color","yellow");
