@@ -14,4 +14,31 @@ $(document).ready(function(){
         $(".design-five").toggle();
         $(".design-six").toggle();
     })
+
+
+
+ $(".work1").hover(function(){
+     $(this).css("background-color","yellow");
+ })
+ $(".work2").hover(function(){
+    $(this).css("background-color","yellow");
+})
+$(".work3").hover(function(){
+    $(this).css("background-color","yellow");
+})
+$(".work4").hover(function(){
+    $(this).css("background-color","yellow");
+})
+$(".work5").hover(function(){
+    $(this).css("background-color","yellow");
+})
+$(".work6").hover(function(){
+    $(this).css("background-color","yellow");
+})
+$(".work7").hover(function(){
+    $(this).css("background-color","yellow");
+})
+$(".work8").hover(function(){
+    $(this).css("background-color","yellow");
+})
 })
