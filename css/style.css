@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.card-img2{
-    height: 80px;
-    width: 80px;
+
+.section-one{
+    background-image: url(../img/h_img.jpg);
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
-.card-img3{
-    height: 50px;
-    width: 30px;
-}
+
+
 h2{
     font-size: 50px;
 }
@@ -26,10 +28,20 @@ input[type=text]::placeholder{
 textarea.text::placeholder{
     color: white;
 }
-.hover{
-    border: 5px solid red;
-    position: absolute;
-  height: 100px;
-  width: 100px;
+
+/* .design-two{
+    display: none;
+} */
+.work1-text{
+    position: relative;
+    bottom: 200px;
+    border: 5px solid olive;
+    height: 180px;
+    width: 200px;
+    left: 20px;
+}
+.work1-text h3{
+    display: block;
+    margin-left: 0;
 }
 
