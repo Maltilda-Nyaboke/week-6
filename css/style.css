@@ -13,7 +13,7 @@ input[type=text],input[type=text]:focus{
 textarea.text,textarea.text:focus{
     background-color: transparent;
     border: 1px solid white;
-    outline: none;
+    outline: none !important;
 }
 input[type=text]::placeholder{
     color: white;

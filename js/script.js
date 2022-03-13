@@ -4,4 +4,14 @@ $(document).ready(function(){
         $(".design-one").toggle();
         $(".design-two").toggle();
     })
+    $(".design-four").hide();
+    $(".design-three").click(function(){
+        $(".design-three").toggle();
+        $(".design-four").toggle();
+    })
+    $(".design-six").hide();
+    $(".design-five").click(function(){
+        $(".design-five").toggle();
+        $(".design-six").toggle();
+    })
 })
