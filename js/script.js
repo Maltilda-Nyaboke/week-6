@@ -7,10 +7,7 @@ $(document).ready(function(){
         $(".design-one").toggle();
         $(".design-two").toggle();
     })
-    // $(".design-one").mouseleave(function(){
-    //     $(".design-two").hide()
-    //     $(".design-one").show();
-    // })
+    
     $(".design-four").hide();
     $(".design-three").click(function(){
         $(".design-three").toggle();
@@ -31,7 +28,41 @@ $(document).ready(function(){
         $(".design-six").toggle();
     })
 
-
+$(".work1").hover(function(){
+    // $(this).css({"position":"relative","display":"flex"});
+    $(".work1-text").show();
+    $(".work1-text h3").show();
+})
+$(".work2").hover(function(){
+    // $(this).css({"position":"relative","display":"flex"});
+    $(".work2-text").show();
+    $(".work2-text h3").show();
+})
+$(".work3").hover(function(){
+    // $(this).css({"position":"relative","display":"flex"});
+    $(".work3-text").show();
+    $(".work3-text h3").show();
+})
+$(".work4").hover(function(){
+    $(".work4-text").show();
+    $(".work4-text h3").show();
+})
+$(".work5").hover(function(){
+    $(".work5-text").show();
+    $(".work5-text h3").show();
+})
+$(".work6").hover(function(){
+    $(".work6-text").show();
+    $(".work6-text h3").show();
+})
+$(".work7").hover(function(){
+    $(".work7-text").show();
+    $(".work7-text h3").show();
+})
+$(".work8").hover(function(){
+    $(".work8-text").show();
+    $(".work8-text h3").show();
+})
 
  
 $("button#button").submit(function(){
