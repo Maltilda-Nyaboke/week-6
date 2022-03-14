@@ -62,7 +62,7 @@ $(".work8").hover(function(){
 })
 
  
-$("button#button").submit(function(){
-
+$("button#button").click(function(){
+   alert("THANK YOU FOR CONTACTING US WE'LL GET BACK TO YOU SOON")
 })
 })
