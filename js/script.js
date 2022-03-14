@@ -29,17 +29,14 @@ $(document).ready(function(){
     })
 
 $(".work1").hover(function(){
-    // $(this).css({"position":"relative","display":"flex"});
     $(".work1-text").show();
     $(".work1-text h3").show();
 })
 $(".work2").hover(function(){
-    // $(this).css({"position":"relative","display":"flex"});
     $(".work2-text").show();
     $(".work2-text h3").show();
 })
 $(".work3").hover(function(){
-    // $(this).css({"position":"relative","display":"flex"});
     $(".work3-text").show();
     $(".work3-text h3").show();
 })
